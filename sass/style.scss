@@ -179,6 +179,66 @@ p {font-size: 14px;}
     min-height:450px;
 }
 
+#homepage_featured {
+    float:left;
+}
+#homepage_featured img {
+    width:80px;
+    float:left;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+#homepage_featured .teasertext p {
+
+}
+#homepage_contribute img {
+    width:100%;
+}
+.headingBg {
+    background-color: $primaryColour;
+    min-height:50px;
+    width:100%;
+}
+.headingBg a:hover, .headingBg:hover  {
+    text-decoration: none;
+    background-color: $secondaryColour;
+}
+.headingBg h2{
+    color:white;
+    padding-top:15px;
+    padding-left:10px;
+    margin-top:0;
+}
+.headingBg span {
+    color:white;
+    position:absolute;
+    bottom:25px;
+    right:25px;
+}
+.teasertext span {
+    font-style: italic; 
+    color: $primaryColour;
+}
+
+
+/* map */
+.map img {
+    width:100%;
+}
+.ui-slider-handle  {
+    border:1px solid $primaryColour !important;
+    background: $primaryColour !important;
+}
+span.ui-slider-handle.ui-state-default.ui-corner-all {
+    border-top-left-radius:50% !important;
+    border-top-right-radius:50% !important;
+    border-bottom-right-radius:50% !important;
+    border-bottom-left-radius:50% !important;
+}
+
+
+
+
 /* other */
 .marginTop {
     margin-top:20px;

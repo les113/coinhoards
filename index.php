@@ -18,12 +18,53 @@
     <!-- content -->
     <div class="marginTop clearfix"></div>
 
-    <div class="container"> <!-- page content -->
+    <div id="content" class="container"> <!-- page content -->
         <div class="row">	
-            <div id="content" class="col-sm-12">
-                Content Here
+            <div id="homepage_featured" class="col-xs-12 col-sm-6 col-md-6">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="img/imgplaceholder.jpg" alt=""/>
+                        <p class="teasertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet lacus quis enim ultricies congue ac ac massa. Duis tincidunt finibus turpis, varius sagittis mi fringilla quis. <a href=""><span> more..</span></a></p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <img src="img/imgplaceholder.jpg" alt=""/>
+                        <p class="teasertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet lacus quis enim ultricies congue ac ac massa. Duis tincidunt finibus turpis, varius sagittis mi fringilla quis. <a href=""><span> more..</span></a></p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <img src="img/imgplaceholder.jpg" alt=""/>
+                        <p class="teasertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet lacus quis enim ultricies congue ac ac massa. Duis tincidunt finibus turpis, varius sagittis mi fringilla quis. <a href=""><span> more..</span></a></p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <img src="img/imgplaceholder.jpg" alt=""/>
+                        <p class="teasertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet lacus quis enim ultricies congue ac ac massa. Duis tincidunt finibus turpis, varius sagittis mi fringilla quis. <a href=""><span> more..</span></a></p>
+                    </div>
+                </div>
             </div>	
-        </div>           
+            <div id="homepage_contribute" class="col-xs-6 col-sm-6 col-md-3">
+                <img src="img/imgplaceholder.jpg" alt=""/>
+                <div class="headingBg"><a href=""><h2>Contribute</h2><span class="fa fa-chevron-right"></span></a></div>
+            </div>	
+            <div id="homepage_news" class="col-xs-12 col-sm-12 col-md-3">
+                <div class="headingBg"><a href=""><h2>News</h2></a></div>
+                <h3>News Title</h3>
+                        <p class="teasertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet lacus quis enim ultricies congue ac ac massa. Duis tincidunt finibus turpis, varius sagittis mi fringilla quis. <a href=""><span> more..</span></a></p>
+                <h3>News Title</h3>
+                        <p class="teasertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet lacus quis enim ultricies congue ac ac massa. Duis tincidunt finibus turpis, varius sagittis mi fringilla quis. <a href=""><span> more..</span></a></p>
+            </div>
+        </div>
+            
+            
+        <div class="row"> 
+            <div class="col-lg-12">
+                <div class="map"><img src="img/map.png" alt=""/></div>
+                <div id="slider" class="marginTop"></div>           
+                <p class="">
+                  <label for="year">Period:</label>
+                  <input type="text" id="year" readonly style="border:0; color:#D69E40; font-weight:bold;">
+                </p>
+            </div>
+        </div>
+            
     </div><!-- end page container -->   
 
     <!-- footer -->

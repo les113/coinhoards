@@ -21,4 +21,18 @@
     <!-- Bootstrap JavaScript plugins -->
     <script src="bootstrap-3.3.1/js/bootstrap.min.js"></script>
 
-
+    <!-- jqueryui map date slider -->
+      <script>
+      $(function() {
+        $( "#slider" ).slider({
+          value:100,
+          min: -500,
+          max: 500,
+          step: 100,
+          slide: function( event, ui ) {
+            $( "#year" ).val( "AD" + ui.value );
+          }
+        });
+        $( "#year" ).val( "AD" + $( "#slider" ).slider( "value" ) );
+      });
+      </script>
