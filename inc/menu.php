@@ -14,7 +14,7 @@
                     <li class="active"><a href="index.php">Home</a></li>
                     <li><a href="subpage.php">Subpage</a></li>
                     <li><a href="#">Menu</a></li>
-                    <li><a href="#">Menu</a></li>
+                    <li><a href="hoardlistview.php">Hoard List</a></li>
                     <li><a href="coindetail.php">Coin Detail</a></li>
                     <li><a href="typography.php">Typography</a></li>
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Drop Down<span class="caret"></span></a>

@@ -273,6 +273,20 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
     clear:both;
 }
 
+/* hoard list view */
+
+.hoardlistview .datalabel {
+    width:20%;
+    float:left;
+    text-align:right;
+    margin-right:20px;
+    font-weight: bold;
+}
+.hoardlistview .data {
+    text-align:left;
+    width:80%;
+}
+
 
 /* site social icons */
 #social-links h2 {
