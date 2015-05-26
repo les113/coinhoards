@@ -22,15 +22,15 @@
         <div class="container">  
 
 			<footer id="footer">
-				<div class="row marginTop">
-					  <div class="col-sm-10 sponsors">
+				<div class="row">
+					  <div class="col-md-8 col-lg-10 sponsors">
 						<a href="http://www.ox.ac.uk" target="_blank"><img src="img/ox-logo.gif" alt="Oxford University"/></a>
 						<a href="http://www.romaneconomy.ox.ac.uk" target="_blank"><img src="img/romaneconomypj-logo.gif" alt="The Oxford Roman Economy Project"/></a>
 						<a href="http://www.ashmolean.org" target="_blank"><img src="img/ashmolean-logo.png" alt="The Ashmolean Museum"/></a>
-						<img src="img/augustusfoundation-logo.png" alt="The Augustus Foundation"/>
+                        <a href="#" target="_blank"><img src="img/augustusfoundation-logo.png" alt="The Augustus Foundation"/></a>
 					  </div>                      
                       
-					  <div class="col-sm-2 footer-links">
+					  <div class="col-md-4 col-lg-2 footer-links">
 						<h4>Sub Menu</h4>
 						<ul class="">
 							<li><a href="#">Link</li></a>
