@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css" >
 
     <!-- stylesheets -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- fonts -->
     <link href='http://fonts.googleapis.com/css?family=Hind:600,300' rel='stylesheet' type='text/css'>

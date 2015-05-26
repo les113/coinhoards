@@ -1,0 +1,224 @@
+/* front end pages */
+/* fonts */
+body {
+  font-family: "Hind", sans-serif;
+  color: #333; }
+
+h1, h2, h3, h4, h4, h5, h6 {
+  font-family: "Times New Roman", Times, serif; }
+
+h1 {
+  font-size: 24px; }
+
+h2 {
+  font-size: 20px;
+  color: #D69E40; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 12px; }
+
+p {
+  font-size: 14px; }
+
+@font-face {
+  font-family: 'Roman_SD-webfont';
+  src: url("romancaps_regular_macroman/Roman_SD-webfont.eot");
+  src: url("romancaps_regular_macroman/Roman_SD-webfont.eot?iefix") format("eot"), url("romancaps_regular_macroman/Roman_SD-webfont.woff") format("woff"), url("romancaps_regular_macroman/Roman_SD-webfont.ttf") format("truetype"), url("romancaps_regular_macroman/Roman_SD-webfont.svg#webfont") format("svg"); }
+/* wraps */
+.headerwrap, .prefooterwrap {
+  background-color: #D69E40; }
+
+.footerwrap {
+  background-color: #002147; }
+
+/* menu */
+.navbar {
+  height: 40px;
+  margin-bottom: 0;
+  color: #666666; }
+
+.navbar a {
+  color: #666666; }
+
+/* login menu */
+.topmenus {
+  position: relative; }
+
+.login {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+/* header */
+#header {
+  height: 390px;
+  background-image: url(../img/header.jpg);
+  position: relative; }
+
+.sitenamebg {
+  Width: 540px;
+  background-color: rgba(0, 0, 0, 0.7);
+  Float: right;
+  position: absolute;
+  top: 140px;
+  right: 0;
+  padding: 15px; }
+
+.sitename {
+  font-family: 'Roman_SD-webfont';
+  color: #D69E40;
+  font-size: 60px;
+  text-align: right;
+  line-height: 40px; }
+
+.sitename_sml {
+  font-size: 24px; }
+
+.sitenamebg {
+  height: 140px; }
+
+#headersubpage {
+  height: 140px;
+  background-image: url(../img/subpageHeader.jpg);
+  position: relative; }
+
+#headersubpage .sitenamebg {
+  position: absolute;
+  right: 0px;
+  top: 0px; }
+
+#searchbox {
+  background-color: #D69E40;
+  height: 70px;
+  width: 250px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  padding-top: 16px;
+  padding-left: 16px; }
+
+#searchbox input {
+  width: 190px;
+  border-radius: 0; }
+
+#searchbox a {
+  color: white; }
+
+#searchbox .fa {
+  color: white;
+  background: none; }
+
+#searchbox button {
+  color: white;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 10px;
+  top: 27px; }
+
+/* footer */
+#prefooter {
+  color: white;
+  height: 42px; }
+
+#footer {
+  color: white;
+  min-height: 210px; }
+
+.footer-links {
+  text-align: right; }
+
+.footer-links li {
+  list-style-type: none;
+  margin-left: -40px;
+  color: white; }
+
+.footer-links a {
+  color: white; }
+
+.sponsors img {
+  margin-right: 20px; }
+
+.copyright {
+  margin-top: 40px; }
+
+/* content */
+#content {
+  min-height: 450px; }
+
+/* other */
+.marginTop {
+  margin-top: 20px; }
+
+.picleft img {
+  float: left;
+  margin-right: 20px; }
+
+.picright img {
+  float: right;
+  margin-left: 20px; }
+
+.clearfix {
+  clear: both; }
+
+/* site social icons */
+#social-links h2 {
+  position: absolute;
+  margin-left: -9999px; }
+
+#social-links li {
+  float: right;
+  padding: 6px 10px;
+  margin-right: 0px;
+  margin-top: -3px; }
+
+#social-links li a {
+  color: #ffffff;
+  overflow: hidden; }
+
+/* social icons */
+#social-links .fa-facebook:hover {
+  color: #3b5998; }
+
+#social-links .fa-linkedin:hover {
+  color: #007bb6; }
+
+#social-links .fa-pinterest:hover {
+  color: #cb2027; }
+
+#social-links .fa-skype:hover {
+  color: #02B4EB; }
+
+#social-links .fa-twitter:hover {
+  color: #2caae1; }
+
+#social-links .fa-tumblr:hover {
+  color: #304E6C; }
+
+#social-links .fa-youtube:hover {
+  color: #B10503; }
+
+#social-links .fa-google-plus:hover {
+  color: #dd4b39; }
+
+#social-links .fa {
+  color: #fff; }
+
+/* responsive adjustments */
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* v small */
+@media only screen and (min-width: 960px) {
+  #header .sitenamebg {
+    background-color: transparent; } }
