@@ -45,7 +45,7 @@
                 <div class="headingBg"><a href=""><h2>Contribute</h2><span class="fa fa-chevron-right"></span></a></div>
             </div>	
             <div id="homepage_news" class="col-xs-12 col-sm-12 col-md-3">
-                <div class="headingBg"><a href=""><h2>News</h2></a></div>
+                <div class="headingBg"><a href=""><h2>News</h2><span class="fa fa-chevron-right"></span></a></div>
                 <h3>News Title</h3>
                         <p class="teasertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet lacus quis enim ultricies congue ac ac massa. Duis tincidunt finibus turpis, varius sagittis mi fringilla quis. <a href=""><span> more..</span></a></p>
                 <h3>News Title</h3>

@@ -33,6 +33,10 @@ p {
   font-family: 'Roman_SD-webfont';
   src: url("romancaps_regular_macroman/Roman_SD-webfont.eot");
   src: url("romancaps_regular_macroman/Roman_SD-webfont.eot?iefix") format("eot"), url("romancaps_regular_macroman/Roman_SD-webfont.woff") format("woff"), url("romancaps_regular_macroman/Roman_SD-webfont.ttf") format("truetype"), url("romancaps_regular_macroman/Roman_SD-webfont.svg#webfont") format("svg"); }
+#content li {
+  list-style-type: none;
+  margin-left: -38px; }
+
 /* wraps */
 .headerwrap, .prefooterwrap {
   background-color: #D69E40; }
@@ -157,6 +161,7 @@ p {
 #content {
   min-height: 450px; }
 
+/* homepage */
 #homepage_featured {
   float: left; }
 
@@ -184,10 +189,16 @@ p {
   padding-left: 10px;
   margin-top: 0; }
 
-.headingBg span {
+#homepage_contribute .headingBg span {
   color: white;
   position: absolute;
   bottom: 25px;
+  right: 25px; }
+
+#homepage_news .headingBg span {
+  color: white;
+  position: absolute;
+  top: 20px;
   right: 25px; }
 
 .teasertext span {
@@ -207,6 +218,11 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
   border-top-right-radius: 50% !important;
   border-bottom-right-radius: 50% !important;
   border-bottom-left-radius: 50% !important; }
+
+/* coin detail page */
+.coin img {
+  width: 280px;
+  margin-bottom: 20px; }
 
 /* other */
 .marginTop {
