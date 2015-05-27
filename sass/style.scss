@@ -318,15 +318,20 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 .tabs .ui-state-active a {
     color:white !important;
 }
-
 .tabs .ui-corner-top, .ui-corner-all {
     border-top-left-radius:0 !important;
     border-top-right-radius:0 !important;
     border-bottom-left-radius:0 !important;
     border-bottom-right-radius:0 !important;
 }
-.tabs .ui-widget-content {
-    // border:0 !important;
+.tabs {
+    border:1px solid $primaryColour !important;
+}
+.ui-tabs .ui-tabs-nav {
+    margin-top:-25px !important;
+}
+#tabs {
+    margin-bottom:20px;
 }
 
 /* forms */

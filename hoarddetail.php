@@ -21,43 +21,49 @@
     <div id="content" class="container"> <!-- page content -->
 
                         <div class="row"> 
-                            <div class="col-md-6">
-                                <div class="hoardlistview">
-                                    <h2>Name of Hoard</h2>
-                                    <div class="datalabel">Date: </div><div class="data">14/05/2006</div>
-                                    <div class="datalabel">Size: </div><div class="data">20,000</div>
-                                    <div class="datalabel">Country: </div><div class="data">UK</div>
-                                    <div class="datalabel">Summary: </div><div class="data">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet lacus quis enim ultricies congue ac ac massa. Duis tincidunt finibus turpis, varius sagittis mi fringilla quis.</div>
+                            <!-- coin summary tabs -->
+                            <div class="col-md-6 marginTop">
+                                <div id="tabs" class="tabs">
+                                  <ul>
+                                    <li><a href="#tab-1">Name of Hoard</a></li>
+                                  </ul>
+                                  <div id="tab-1">
+                                    <div class="hoardlistview">
+                                        <div class="datalabel">Date: </div><div class="data">14/05/2006</div>
+                                        <div class="datalabel">Size: </div><div class="data">20,000</div>
+                                        <div class="datalabel">Country: </div><div class="data">UK</div>
+                                        <div class="datalabel">Summary: </div><div class="data">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet lacus quis enim ultricies congue ac ac massa. Duis tincidunt finibus turpis, varius sagittis mi fringilla quis.</div>
+                                    </div>
+                                  </div>
                                 </div>
                             </div>
                             
                             <!-- coin summary tabs -->
-                            <div class="col-md-6">
-                            <div id="tabs2" class="tabs">
-                              <ul>
-                                <li><a href="#tabs2-1">Summary</a></li>
-                                <li><a href="#tabs2-2">Coins</a></li>
-                                <li><a href="#tabs2-3">Stats</a></li>
-                              </ul>
+                            <div class="col-md-6 marginTop">
+                                <div id="tabs2" class="tabs">
+                                  <ul>
+                                    <li><a href="#tabs2-1">Summary</a></li>
+                                    <li><a href="#tabs2-2">Coins</a></li>
+                                    <li><a href="#tabs2-3">Stats</a></li>
+                                  </ul>
 
-                              <div id="tabs2-1">  
-                                  <p>Summary</p>
-                              </div>   
-                              <div id="tabs2-2"> 
-                                  <p>Coins</p>
-                              </div>   
-                              <div id="tabs2-3"> 
-                                  <p>Stats</p>
-                              </div>   
-  
-                            </div>
+                                  <div id="tabs2-1">  
+                                      <p>Summary</p>
+                                  </div>   
+                                  <div id="tabs2-2"> 
+                                      <p>Coins</p>
+                                  </div>   
+                                  <div id="tabs2-3"> 
+                                      <p>Stats</p>
+                                  </div>   
+                                </div>
                             </div>
                         </div>    
                                 
                         <!-- hoard detail tabs -->
                         <div class="row"> 
-                            <div class="col-md-12">
-                                <div id="tabs3" class="tabs marginTop">
+                            <div class="col-md-12 marginTop">
+                                <div id="tabs3" class="tabs">
                                   <ul>
                                     <li><a href="#tabs3-1">Details</a></li>
                                     <li><a href="#tabs3-2">Rating</a></li>

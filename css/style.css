@@ -288,6 +288,15 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important; }
 
+.tabs {
+  border: 1px solid #D69E40 !important; }
+
+.ui-tabs .ui-tabs-nav {
+  margin-top: -25px !important; }
+
+#tabs {
+  margin-bottom: 20px; }
+
 /* forms */
 .form-group label, .ui-widget input, .ui-widget select {
   font-size: 14px !important;
