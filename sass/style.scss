@@ -293,34 +293,80 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 }
 
 /* jqueryui tabs */
-.ui-widget {
+#tabs {
     font-size: 14px !important;    
     font-family: $standardFontFamily !important;
-	color:#333 !important;
+}
+#tabs .ui-widget-header {
+    background: none !important;
+    border:0 !important;
 }
 #tabs li {
     margin-left: 0;
 }
-#tabs .ui-state-active {background-color: $primaryColour;}
+#tabs .ui-state-default {
+    background: white !important;
+    border:1px solid $primaryColour !important;
+}
+#tabs .ui-state-default a {
+    color: $primaryColour !important;
+}
+#tabs .ui-state-active {
+    background-color: $primaryColour !important;
+    border:1px solid $primaryColour !important;
+}
+#tabs .ui-state-active a {
+    color:white !important;
+}
 
+#tabs .ui-corner-top, .ui-corner-all {
+    border-top-left-radius:0 !important;
+    border-top-right-radius:0 !important;
+    border-bottom-left-radius:0 !important;
+    border-bottom-right-radius:0 !important;
+}
+#tabs .ui-widget-content {
+    // border:0 !important;
+}
 
-
+/* forms */
+.form-group label, .ui-widget input, .ui-widget select  {
+    font-size: 14px !important;    
+    font-family: $standardFontFamily !important;
+}
 
 .form-group label {
     background-color: $primaryColour;
     padding:6px;
     color:white;
+    letter-spacing: 1px;
+    font-weight: normal;
 }
-.form-horizontal .control-label {   
+.form-group .control-label {   
     text-align:left;
     padding:7px;
 }
-.ui-widget input {
+.form-group input, .form-group select {
     background: none; 
     border:1px solid $primaryColour;
     border-radius: 0;
 }
 
+
+/* slider */
+#slider-range .ui-slider {
+    border:1px solid $primaryColour !important;
+}
+#slider-range .ui-slider-range {
+    background-color: $secondaryColour !important;
+}
+#slider-range .ui-sliderhandle {
+    background-color: $primaryColour !important;
+}
+#slider-range .ui-widget-content {
+    border:1px solid $primaryColour !important;
+    background-color: $primaryColour !important;
+}
 
 
 /* site social icons */

@@ -37,9 +37,26 @@
       });
       </script>
 
+    <!-- jquery ui range slider -->
+      <script>
+      $(function() {
+        $( "#slider-range" ).slider({
+          range: true,
+          min: -500,
+          max: 500,
+          values: [ 75, 300 ],
+          slide: function( event, ui ) {
+            $( "#year" ).val( "BC" + ui.values[ 0 ] + " - AD" + ui.values[ 1 ] );
+          }
+        });
+        $( "#year" ).val( "BC" + $( "#slider-range" ).slider( "values", 0 ) +
+          " - AD" + $( "#slider-range" ).slider( "values", 1 ) );
+      });
+      </script>
+
     <!--- jqueryui tabs -->
       <script>
       $(function() {
-        $( "#tabs" ).tabs();
+        $( "#tabs, #tabs2, #tabs3" ).tabs();
       });
       </script>

@@ -29,18 +29,20 @@
                         <li><a href="#tabs-3">List Results</a></li>
                       </ul>
 
-                    <form class="form-horizontal">
-                        
+                    <form class="form-horizontal marginTop">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                <p>
+                                  <label for="date" class="col-sm-2">Date:</label>
+                                  <input type="text" id="year" readonly style="border:0;">
+                                </p>
+                                <div id="slider-range" class="col-sm-10"></div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-md-6">
-
-                                <div class="form-group">
-                                    <div id="slider" class="marginTop"></div>           
-                                    <p class="">
-                                      <label for="year">Start Date:</label>
-                                      <input type="text" id="year" readonly style="border:0; color:#D69E40; font-weight:bold;">
-                                    </p>
-                                </div>
                                 <div class="form-group">         
                                     <label for="country" class="col-sm-2">Country:</label>
                                     <div class="col-sm-10">
@@ -50,49 +52,47 @@
                                         </select>
                                     </div>
                                 </div>
-                                  <div class="form-group">
+                                <div class="form-group">
                                     <label for="something" class="col-sm-2 control-label">Something</label>
                                     <div class="col-sm-10">
                                       <input type="text" class="form-control" id="something" placeholder="something">
                                     </div>
-                                  </div>
-
+                                </div>
                             </div>
-
-                        
                             <div class="col-md-6">
-
-                                <div class="form-group">
-                                    <div id="slider" class="marginTop"></div>           
-                                    <p class="">
-                                      <label for="year">End Date:</label>
-                                      <input type="text" id="year" readonly style="border:0; color:#D69E40; font-weight:bold;">
-                                    </p>
-                                </div>
                                 <div class="form-group">         
-                                    <label for="country" class="col-sm-2">Country:</label>
+                                    <label for="country" class="col-sm-2">Criteria:</label>
                                     <div class="col-sm-10">
                                         <select class="form-control">
-                                          <option>Italy</option>
-                                          <option>UK</option>
+                                          <option>Select</option>
+                                          <option>Something</option>
                                         </select>
                                     </div>
                                 </div>
-                                  <div class="form-group">
-                                    <label for="something" class="col-sm-2 control-label">Something</label>
+                            </div>
+                        </div> 
+                        
+                        <div class="row">
+                            <div class="col-md-12">
+                                
+                                <div class="form-group">
                                     <div class="col-sm-10">
-                                      <input type="text" class="form-control" id="something" placeholder="something">
+                                      <button type="add" class="btn btn-default">Add</button>
                                     </div>
-                                  </div>
-                                  <div class="form-group">
-                                    <div class="col-sm-offset-8 col-sm-10">
+                                    <div class="col-sm-2">
                                       <button type="submit" class="btn btn-default">Search</button>
                                       <button type="reset" class="btn btn-default">Clear all</button>
                                     </div>
-                                  </div>
-
+                                  </div>                               
+                                
+                                
+                                
                             </div>
-                        </div>       
+                        </div>
+                        
+                        
+                        
+                        
                     </form>
                         
                       <div id="tabs-1">
