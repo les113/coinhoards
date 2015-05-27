@@ -18,7 +18,7 @@
     <!-- content -->
     <div class="marginTop clearfix"></div>
 
-    <div class="container"> <!-- page content -->
+    <div id="content" class="container"> <!-- page content -->
         <div class="row">	
             <h1>Coin, Location, Date</h1>
             <div class="col-sm-4">

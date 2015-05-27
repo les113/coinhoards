@@ -36,3 +36,10 @@
         $( "#year" ).val( "AD" + $( "#slider" ).slider( "value" ) );
       });
       </script>
+
+    <!--- jqueryui tabs -->
+      <script>
+      $(function() {
+        $( "#tabs" ).tabs();
+      });
+      </script>

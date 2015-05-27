@@ -292,6 +292,36 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
     width:80%;
 }
 
+/* jqueryui tabs */
+.ui-widget {
+    font-size: 14px !important;    
+    font-family: $standardFontFamily !important;
+	color:#333 !important;
+}
+#tabs li {
+    margin-left: 0;
+}
+#tabs .ui-state-active {background-color: $primaryColour;}
+
+
+
+
+.form-group label {
+    background-color: $primaryColour;
+    padding:6px;
+    color:white;
+}
+.form-horizontal .control-label {   
+    text-align:left;
+    padding:7px;
+}
+.ui-widget input {
+    background: none; 
+    border:1px solid $primaryColour;
+    border-radius: 0;
+}
+
+
 
 /* site social icons */
 #social-links h2 {
