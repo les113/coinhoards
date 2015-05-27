@@ -19,7 +19,7 @@
     <div class="marginTop clearfix"></div>
 
     <div id="content" class="container"> <!-- page content -->
-        <div class="row">	
+        <div class="row marginTop">	
             <div class="col-md-12">
                 
                     <div id="tabs" class="tabs">
@@ -29,55 +29,55 @@
                         <li><a href="#tabs-3">List Results</a></li>
                       </ul>
 
-                    <form class="form-horizontal marginTop">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                <p>
-                                  <label for="date" class="col-sm-2">Date:</label>
-                                  <input type="text" id="year" readonly style="border:0;">
-                                </p>
-                                <div id="slider-range" class="col-sm-10"></div>
-                                </div>
+                    <form class="form-horizontal">
+
+                        <div class="form-group marginTop">
+                              <label class="col-sm-2 col-sm-offset-1 control-label" for="date">Date: </label>
+                            <div class="col-sm-8 controls">
+                              <input type="text" id="year" readonly style="border:0;">
+                              <div id="slider-range"></div>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="form-group">         
-                                    <label for="country" class="col-sm-2">Country:</label>
-                                    <div class="col-sm-10">
+                                  <div class="form-group">
+                                    <label class="col-sm-3 col-sm-offset-1 control-label" for="text">Country:</label>
+                                    <div class="col-sm-8 controls">
                                         <select class="form-control">
+                                          <option>Select</option>
                                           <option>Italy</option>
                                           <option>UK</option>
                                         </select>
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="something" class="col-sm-2 control-label">Something</label>
-                                    <div class="col-sm-10">
-                                      <input type="text" class="form-control" id="something" placeholder="something">
+                                  </div>  
+                                  <div class="form-group">
+                                    <label for="text" class="col-sm-3 col-sm-offset-1 control-label">Text</label>
+                                    <div class="col-sm-8">
+                                      <input type="text" class="form-control" id="text" placeholder="text">
                                     </div>
-                                </div>
+                                  </div>                            
                             </div>
                             <div class="col-md-6">
-                                <div class="form-group">         
-                                    <label for="country" class="col-sm-2">Criteria:</label>
-                                    <div class="col-sm-10">
+                                  <div class="form-group">
+                                    <label class="col-sm-3 control-label" for="text">Something else:</label>
+                                    <div class="col-sm-8 controls">
                                         <select class="form-control">
                                           <option>Select</option>
                                           <option>Something</option>
+                                          <option>Else</option>
                                         </select>
                                     </div>
-                                </div>
+                                  </div> 
                             </div>
                         </div> 
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="form-group">
-                                    <div class="col-sm-10">
+                                <div class="control-group">
+                                    <div class="col-sm-8 col-sm-offset-1">
                                       <button type="add" class="btn btn-default">Add</button>
                                     </div>
-                                    <div class="col-sm-2">
+                                    <div class="col-sm-3">
                                       <button type="submit" class="btn btn-default">Search</button>
                                       <button type="reset" class="btn btn-default">Clear all</button>
                                     </div>
