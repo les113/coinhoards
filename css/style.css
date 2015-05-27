@@ -5,7 +5,8 @@ body {
   color: #333; }
 
 h1, h2, h3, h4, h4, h5, h6 {
-  font-family: "Times New Roman", Times, serif; }
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px; }
 
 h1 {
   font-size: 24px; }
@@ -242,13 +243,17 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 /* hoard list view */
 .hoardlistview .datalabel {
   width: 20%;
-  float: left;
+  position: absolute;
+  left: 0;
   text-align: right;
   margin-right: 20px;
   font-weight: bold; }
 
 .hoardlistview .data {
+  width: 80%;
   text-align: left;
+  position: relative;
+  left: 20%;
   width: 80%; }
 
 /* site social icons */

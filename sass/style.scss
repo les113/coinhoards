@@ -29,9 +29,10 @@ body {
 }
 h1, h2, h3, h4, h4, h5, h6 {
     font-family: $headingFontFamily;
+    letter-spacing: 1px;
 }
 h1 {font-size: 24px;}
-h2 {font-size: 20px; color:$primaryColour;}
+h2 {font-size: 20px;  color:$primaryColour;}
 h3 {font-size: 18px;}
 h4 {font-size: 16px;}
 h5 {font-size: 14px;}
@@ -277,13 +278,17 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 
 .hoardlistview .datalabel {
     width:20%;
-    float:left;
+    position:absolute;
+    left:0;
     text-align:right;
     margin-right:20px;
     font-weight: bold;
 }
 .hoardlistview .data {
+    width:80%;
     text-align:left;
+    position: relative;
+    left:20%;
     width:80%;
 }
 
