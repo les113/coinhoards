@@ -31,16 +31,17 @@
 
                     <form class="form-horizontal">
 
-                        <div class="form-group marginTop">
-                              <label class="col-sm-2 col-sm-offset-1 control-label" for="date">Date: </label>
-                            <div class="col-sm-8 controls">
-                              <input type="text" id="year" readonly style="border:0;">
-                              <div id="slider-range"></div>
-                            </div>
-                        </div>
-
                         <div class="row">
                             <div class="col-md-6">
+                                
+                                <div class="form-group marginTop">
+                                      <label class="col-sm-3 col-sm-offset-1 control-label" for="date">Date:</label>
+                                    <div class="col-sm-8 controls">
+                                      <input type="text" id="range" readonly style="border:0;">
+                                      <div id="slider-range"></div>
+                                    </div>
+                                </div>
+                                
                                   <div class="form-group">
                                     <label class="col-sm-3 col-sm-offset-1 control-label" for="text">Country:</label>
                                     <div class="col-sm-8 controls">
@@ -58,7 +59,7 @@
                                     </div>
                                   </div>                            
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6" style="margin-top:22px;">
                                   <div class="form-group">
                                     <label class="col-sm-3 control-label" for="text">Something else:</label>
                                     <div class="col-sm-8 controls">
@@ -69,6 +70,16 @@
                                         </select>
                                     </div>
                                   </div> 
+                                  <div class="form-group">
+                                    <label class="col-sm-3 control-label" for="text">Something else:</label>
+                                    <div class="col-sm-8 controls">
+                                        <select class="form-control">
+                                          <option>Select</option>
+                                          <option>Something</option>
+                                          <option>Else</option>
+                                        </select>
+                                    </div>
+                                  </div>
                             </div>
                         </div> 
                         <div class="row">
@@ -86,17 +97,16 @@
                         </div> 
                     </form>
                         
-                      <div id="tabs-1">
+                      <div id="tabs-1"><!-- search -->
                       </div>
-                      <div id="tabs-2">
+                      <div id="tabs-2"><!-- search results map view -->
                         <div class="row"> 
                             <div class="col-md-12">
-                                <div class="map"><img src="img/map.png" alt=""/></div>
-                                <div id="slider" class="marginTop"></div>           
+                                <div class="map"><img src="img/map.png" alt=""/></div>         
                             </div>
                         </div>
                       </div>
-                      <div id="tabs-3">
+                      <div id="tabs-3"><!-- search results list view -->
                         <div class="row"> 
                             <div class="col-md-12">
                                 <div class="hoardlistview">

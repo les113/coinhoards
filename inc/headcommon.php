@@ -46,10 +46,10 @@
           max: 500,
           values: [ 75, 300 ],
           slide: function( event, ui ) {
-            $( "#year" ).val( "BC" + ui.values[ 0 ] + " - AD" + ui.values[ 1 ] );
+            $( "#range" ).val( "BC" + ui.values[ 0 ] + " - AD" + ui.values[ 1 ] );
           }
         });
-        $( "#year" ).val( "BC" + $( "#slider-range" ).slider( "values", 0 ) +
+        $( "#range" ).val( "BC" + $( "#slider-range" ).slider( "values", 0 ) +
           " - AD" + $( "#slider-range" ).slider( "values", 1 ) );
       });
       </script>
