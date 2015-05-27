@@ -21,25 +21,51 @@
     <div id="content" class="container"> <!-- page content -->
 
                         <div class="row"> 
-                            <!-- coin summary tabs -->
+
                             <div class="col-md-6 marginTop">
-                                <div id="tabs" class="tabs">
-                                  <ul>
-                                    <li><a href="#tab-1">Name of Hoard</a></li>
-                                  </ul>
-                                  <div id="tab-1">
-                                    <div class="hoardlistview">
-                                        <div class="datalabel">Date: </div><div class="data">14/05/2006</div>
-                                        <div class="datalabel">Size: </div><div class="data">20,000</div>
-                                        <div class="datalabel">Country: </div><div class="data">UK</div>
-                                        <div class="datalabel">Summary: </div><div class="data">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet lacus quis enim ultricies congue ac ac massa. Duis tincidunt finibus turpis, varius sagittis mi fringilla quis.</div>
+                                
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <!-- Hoard Summary tabs -->
+                                        <div id="tabs" class="tabs">
+                                          <ul>
+                                            <li><a href="#tab-1">Name of Hoard</a></li>
+                                          </ul>
+                                          <div id="tab-1">
+                                            <div class="hoardlistview">
+                                                <div class="datalabel">Date: </div><div class="data">14/05/2006</div>
+                                                <div class="datalabel">Size: </div><div class="data">20,000</div>
+                                                <div class="datalabel">Country: </div><div class="data">UK</div>
+                                                <div class="datalabel">Summary: </div><div class="data">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet lacus quis enim ultricies congue ac ac massa. Duis tincidunt finibus turpis, varius sagittis mi fringilla quis.</div>
+                                            </div>
+                                          </div>
+                                        </div>
                                     </div>
-                                  </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12 marginTop">
+                                        <!-- Location tabs -->
+                                        <div id="tabs" class="tabs">
+                                          <ul>
+                                            <li><a href="#tab-1">Location</a></li>
+                                          </ul>
+                                          <div id="tab-1">
+                                            <div class="hoardlistview">
+                                                <div class="datalabel">City: </div><div class="data">Oxford</div>
+                                                <div class="datalabel">Region: </div><div class="data">Oxfordshire</div>
+                                                <div class="datalabel">Nation: </div><div class="data">UK</div>
+                                                <div class="datalabel">Lat/Long/Alt: </div><div class="data">51.75 -1.26 72 <a href="">view</a></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            
-                            <!-- coin summary tabs -->
+
                             <div class="col-md-6 marginTop">
+                                
+                            <!-- coin summary tabs -->
                                 <div id="tabs2" class="tabs">
                                   <ul>
                                     <li><a href="#tabs2-1">Summary</a></li>
