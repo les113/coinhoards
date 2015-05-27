@@ -22,7 +22,7 @@
         <div class="row">	
             <div class="col-md-12">
                 
-                    <div id="tabs">
+                    <div id="tabs" class="tabs">
                       <ul>
                         <li><a href="#tabs-1">Search</a></li>
                         <li><a href="#tabs-2">Map Results</a></li>
@@ -71,10 +71,8 @@
                                 </div>
                             </div>
                         </div> 
-                        
                         <div class="row">
                             <div class="col-md-12">
-                                
                                 <div class="form-group">
                                     <div class="col-sm-10">
                                       <button type="add" class="btn btn-default">Add</button>
@@ -84,15 +82,8 @@
                                       <button type="reset" class="btn btn-default">Clear all</button>
                                     </div>
                                   </div>                               
-                                
-                                
-                                
                             </div>
-                        </div>
-                        
-                        
-                        
-                        
+                        </div> 
                     </form>
                         
                       <div id="tabs-1">

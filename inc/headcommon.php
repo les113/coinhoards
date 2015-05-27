@@ -37,7 +37,7 @@
       });
       </script>
 
-    <!-- jquery ui range slider -->
+    <!-- jqueryui range slider -->
       <script>
       $(function() {
         $( "#slider-range" ).slider({

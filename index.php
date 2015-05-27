@@ -53,7 +53,6 @@
             </div>
         </div>
             
-            
         <div class="row"> 
             <div class="col-lg-12">
                 <div class="map"><img src="img/map.png" alt=""/></div>

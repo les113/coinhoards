@@ -257,32 +257,32 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
   width: 80%; }
 
 /* jqueryui tabs */
-#tabs {
+.tabs {
   font-size: 14px !important;
   font-family: "Hind", sans-serif !important; }
 
-#tabs .ui-widget-header {
+.tabs .ui-widget-header {
   background: none !important;
   border: 0 !important; }
 
-#tabs li {
-  margin-left: 0; }
+.tabs li {
+  margin-left: 0 !important; }
 
-#tabs .ui-state-default {
+.tabs .ui-state-default {
   background: white !important;
   border: 1px solid #D69E40 !important; }
 
-#tabs .ui-state-default a {
+.tabs .ui-state-default a {
   color: #D69E40 !important; }
 
-#tabs .ui-state-active {
+.tabs .ui-state-active {
   background-color: #D69E40 !important;
   border: 1px solid #D69E40 !important; }
 
-#tabs .ui-state-active a {
+.tabs .ui-state-active a {
   color: white !important; }
 
-#tabs .ui-corner-top, .ui-corner-all {
+.tabs .ui-corner-top, .ui-corner-all {
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
   border-bottom-left-radius: 0 !important;

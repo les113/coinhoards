@@ -19,16 +19,6 @@
     <div class="marginTop clearfix"></div>
 
     <div id="content" class="container"> <!-- page content -->
-        <div class="row">	
-            <div class="col-md-12">
-                <div id="tabs">
-                      <ul>
-                        <li><a href="#hoard">Hoard</a></li>
-                        <li><a href="#search">Search</a></li>
-                      </ul>
-                        
-                      <div id="hoard">
-                          
 
                         <div class="row"> 
                             <div class="col-md-6">
@@ -43,7 +33,7 @@
                             
                             <!-- coin summary tabs -->
                             <div class="col-md-6">
-                            <div id="tabs2">
+                            <div id="tabs2" class="tabs">
                               <ul>
                                 <li><a href="#tabs2-1">Summary</a></li>
                                 <li><a href="#tabs2-2">Coins</a></li>
@@ -67,7 +57,7 @@
                         <!-- hoard detail tabs -->
                         <div class="row"> 
                             <div class="col-md-12">
-                                <div id="tabs3" class="marginTop">
+                                <div id="tabs3" class="tabs marginTop">
                                   <ul>
                                     <li><a href="#tabs3-1">Details</a></li>
                                     <li><a href="#tabs3-2">Rating</a></li>
@@ -107,13 +97,8 @@
                         </div>
                           
                       </div>
-                        
-                      <div id="search">  
-                      </div>             
-                    </div>
-                </div>	
-            </div> 
-        </div>
+                               
+
     </div><!-- end page container -->   
 
     <!-- footer -->
