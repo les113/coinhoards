@@ -56,11 +56,8 @@
         <div class="row"> 
             <div class="col-lg-12">
                 <div class="map"><img src="img/map.png" alt=""/></div>
-                <div id="slider" class="marginTop"></div>           
-                <p class="">
-                  <label for="year">Period:</label>
-                  <input type="text" id="year" readonly style="border:0; color:#D69E40; font-weight:bold;">
-                </p>
+                                      <input type="text" id="range" readonly style="border:0;">
+                                      <div id="slider-range"></div>
             </div>
         </div>
             

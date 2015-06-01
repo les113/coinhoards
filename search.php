@@ -59,9 +59,10 @@
                                     </div>
                                   </div>                            
                             </div>
+                            
                             <div class="col-md-6" style="margin-top:22px;">
                                   <div class="form-group">
-                                    <label class="col-sm-3 control-label" for="text">Something else:</label>
+                                    <label class="col-sm-3 col-sm-offset-1 control-label" for="text">Something else:</label>
                                     <div class="col-sm-8 controls">
                                         <select class="form-control">
                                           <option>Select</option>
@@ -71,7 +72,7 @@
                                     </div>
                                   </div> 
                                   <div class="form-group">
-                                    <label class="col-sm-3 control-label" for="text">Something else:</label>
+                                    <label class="col-sm-3 col-sm-offset-1 control-label" for="text">Something else:</label>
                                     <div class="col-sm-8 controls">
                                         <select class="form-control">
                                           <option>Select</option>

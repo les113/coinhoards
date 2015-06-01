@@ -233,20 +233,6 @@ p {font-size: 14px;}
 }
 
 
-/* map */
-.map img {
-    width:100%;
-}
-.ui-slider-handle  {
-    border:1px solid $primaryColour !important;
-    background: $primaryColour !important;
-}
-span.ui-slider-handle.ui-state-default.ui-corner-all {
-    border-top-left-radius:50% !important;
-    border-top-right-radius:50% !important;
-    border-bottom-right-radius:50% !important;
-    border-bottom-left-radius:50% !important;
-}
 
 
 /* coin detail page */
@@ -311,6 +297,10 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 .tabs .ui-state-default a {
     color: $primaryColour !important;
 }
+.tabs .ui-state-default a:hover {
+    color: white !important; 
+    background: $primaryColour !important;   
+}
 .tabs .ui-state-active {
     background-color: $primaryColour !important;
     border:1px solid $primaryColour !important;
@@ -357,10 +347,29 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
     border-radius: 0;
 }
 
+/* map */
+.map img {
+    width:100%;
+}
 
 /* slider */
+
+#slider-range .ui-slider-handle {
+    border:1px solid $primaryColour !important;
+    background: $primaryColour !important;
+}
+span.ui-slider-handle.ui-state-default.ui-corner-all {
+    border-top-left-radius:50% !important;
+    border-top-right-radius:50% !important;
+    border-bottom-right-radius:50% !important;
+    border-bottom-left-radius:50% !important;
+}
+
 #slider-range .ui-slider {
     border:1px solid $primaryColour !important;
+}
+#slider-range .ui-widget-header {
+    background: none;
 }
 #slider-range .ui-slider-range {
     background-color: $secondaryColour !important;
