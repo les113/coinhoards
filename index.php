@@ -56,8 +56,8 @@
         <div class="row"> 
             <div class="col-lg-12">
                 <div class="map"><img src="img/map.png" alt=""/></div>
-                                      <input type="text" id="range" readonly style="border:0;">
-                                      <div id="slider-range"></div>
+                  <input type="text" id="range" readonly style="border:0;">
+                  <div id="slider-range"></div>
             </div>
         </div>
             
