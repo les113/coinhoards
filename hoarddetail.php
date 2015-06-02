@@ -32,7 +32,7 @@
                                             <li><a href="#tab-1">Name of Hoard</a></li>
                                           </ul>
                                           <div id="tab-1">
-                                            <div class="hoardlistview">
+                                            <div class="hoardlistview-6col">
                                                 <div class="datalabel">Date: </div><div class="data">14/05/2006</div>
                                                 <div class="datalabel">Size: </div><div class="data">20,000</div>
                                                 <div class="datalabel">Country: </div><div class="data">UK</div>
@@ -51,7 +51,7 @@
                                             <li><a href="#tab-1">Location</a></li>
                                           </ul>
                                           <div id="tab-1">
-                                            <div class="hoardlistview">
+                                            <div class="hoardlistview-6col">
                                                 <div class="datalabel">City: </div><div class="data">Oxford</div>
                                                 <div class="datalabel">Region: </div><div class="data">Oxfordshire</div>
                                                 <div class="datalabel">Nation: </div><div class="data">UK</div>
@@ -74,12 +74,34 @@
                                   </ul>
 
                                   <div id="tabs2-1">  
-                                        <div class="hoardlistview">
-                                            <div class="datalabel">Discovery Method: </div><div class="data">Agricultural or drainage work</div>
-                                            <div class="datalabel">Discovery Depth: </div><div class="data">3m</div>
-                                            <div class="datalabel">Land Use: </div><div class="data">Other: Built over</div>
-                                            <div class="datalabel">Owner(s): </div><div class="data">Name</div>
-                                            <div class="datalabel">Finder(s): </div><div class="data">Someone else</div>
+                                        <div class="hoardlistview-table row">
+                                            <table>
+                                                <thead>
+                                                <tr>
+                                                    <th>Period</th>
+                                                    <th>Authority</th>
+                                                    <th>Denomination</th>
+                                                    <th>Nb</th>
+                                                    <th>Link</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Imperial</td>
+                                                    <td>Antonius Plus</td>
+                                                    <td>Sesterius</td>
+                                                    <td>2</td>
+                                                    <td><a href="coindetal.php">view</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Imperial</td>
+                                                    <td>Antonius Plus</td>
+                                                    <td>Sesterius</td>
+                                                    <td>2</td>
+                                                    <td><a href="coindetal.php">view</a></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
                                   </div>   
                                   <div id="tabs2-2"> 
@@ -108,7 +130,13 @@
                                   </ul>
 
                                   <div id="tabs3-1">  
-                                      <p>Details</p>
+                                        <div class="hoardlistview-12col">
+                                            <div class="datalabel">Discovery Method: </div><div class="data">Agricultural or drainage work</div>
+                                            <div class="datalabel">Discovery Depth: </div><div class="data">3m</div>
+                                            <div class="datalabel">Land Use: </div><div class="data">Other: Built over</div>
+                                            <div class="datalabel">Owner(s): </div><div class="data">Name</div>
+                                            <div class="datalabel">Finder(s): </div><div class="data">Someone else</div>
+                                        </div>
                                   </div>   
                                   <div id="tabs3-2"> 
                                       <p>Rating</p>

@@ -262,7 +262,7 @@ p {font-size: 14px;}
 
 /* hoard list view */
 
-.hoardlistview .datalabel {
+.hoardlistview-6col .datalabel {
     width:25%;
     position:absolute;
     left:0;
@@ -270,12 +270,43 @@ p {font-size: 14px;}
     margin-right:20px;
     font-weight: bold;
 }
-.hoardlistview .data {
+.hoardlistview-6col .data {
     width:75%;
     text-align:left;
     position: relative;
     left:25%;
 }
+.hoardlistview-12col .datalabel {
+    width:15%;
+    position:absolute;
+    left:0;
+    text-align:right;
+    margin-right:20px;
+    font-weight: bold;
+}
+.hoardlistview-12col .data {
+    width:85%;
+    text-align:left;
+    position: relative;
+    left:15%;
+}
+
+/* hoard page data table */
+
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+th { 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 3px 6px; 
+  text-align: left; 
+}
+
+
+
 
 /* jqueryui tabs */
 .tabs {
