@@ -91,14 +91,14 @@
                                                     <td>Antonius Plus</td>
                                                     <td>Sesterius</td>
                                                     <td>2</td>
-                                                    <td><a href="coindetal.php">view</a></td>
+                                                    <td><a href="coindetail.php">view</a></td>
                                                 </tr>
                                                 <tr>
                                                     <td>Imperial</td>
-                                                    <td>Antonius Plus</td>
+                                                    <td>Elagabalus</td>
                                                     <td>Sesterius</td>
-                                                    <td>2</td>
-                                                    <td><a href="coindetal.php">view</a></td>
+                                                    <td>1</td>
+                                                    <td><a href="coindetail.php">view</a></td>
                                                 </tr>
                                                 </tbody>
                                             </table>
