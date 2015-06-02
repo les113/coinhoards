@@ -74,35 +74,33 @@
                                   </ul>
 
                                   <div id="tabs2-1">  
-                                        <div class="hoardlistview-table row">
-                                            <table>
-                                                <thead>
-                                                <tr>
-                                                    <th>Period</th>
-                                                    <th>Authority</th>
-                                                    <th>Denomination</th>
-                                                    <th>Nb</th>
-                                                    <th>Link</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr>
-                                                    <td>Imperial</td>
-                                                    <td>Antonius Plus</td>
-                                                    <td>Sesterius</td>
-                                                    <td>2</td>
-                                                    <td><a href="coindetail.php">view</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Imperial</td>
-                                                    <td>Elagabalus</td>
-                                                    <td>Sesterius</td>
-                                                    <td>1</td>
-                                                    <td><a href="coindetail.php">view</a></td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
+                                        <table>
+                                            <thead>
+                                            <tr>
+                                                <th>Period</th>
+                                                <th>Authority</th>
+                                                <th>Denomination</th>
+                                                <th>Nb</th>
+                                                <th>Link</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>Imperial</td>
+                                                <td>Antonius Plus</td>
+                                                <td>Sesterius</td>
+                                                <td>2</td>
+                                                <td><a href="coindetail.php">view</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Imperial</td>
+                                                <td>Elagabalus</td>
+                                                <td>Sesterius</td>
+                                                <td>1</td>
+                                                <td><a href="coindetail.php">view</a></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
                                   </div>   
                                   <div id="tabs2-2"> 
                                       <p>Coins</p>
