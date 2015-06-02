@@ -74,7 +74,13 @@
                                   </ul>
 
                                   <div id="tabs2-1">  
-                                      <p>Summary</p>
+                                        <div class="hoardlistview">
+                                            <div class="datalabel">Discovery Method: </div><div class="data">Agricultural or drainage work</div>
+                                            <div class="datalabel">Discovery Depth: </div><div class="data">3m</div>
+                                            <div class="datalabel">Land Use: </div><div class="data">Other: Built over</div>
+                                            <div class="datalabel">Owner(s): </div><div class="data">Name</div>
+                                            <div class="datalabel">Finder(s): </div><div class="data">Someone else</div>
+                                        </div>
                                   </div>   
                                   <div id="tabs2-2"> 
                                       <p>Coins</p>
