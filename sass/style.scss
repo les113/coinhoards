@@ -263,7 +263,7 @@ p {font-size: 14px;}
 /* hoard list view */
 
 .hoardlistview .datalabel {
-    width:20%;
+    width:25%;
     position:absolute;
     left:0;
     text-align:right;
@@ -271,11 +271,10 @@ p {font-size: 14px;}
     font-weight: bold;
 }
 .hoardlistview .data {
-    width:80%;
+    width:75%;
     text-align:left;
     position: relative;
-    left:20%;
-    width:80%;
+    left:25%;
 }
 
 /* jqueryui tabs */
