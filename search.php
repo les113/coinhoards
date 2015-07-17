@@ -87,11 +87,11 @@
                             <div class="col-md-12">
                                 <div class="control-group">
                                     <div class="col-sm-8 col-sm-offset-1">
-                                      <button type="add" class="btn btn-default">Add</button>
+                                      <button type="button" class="btn add"><i class="fa fa-plus-circle icon-large fa-3x"></i></button>      
                                     </div>
                                     <div class="col-sm-3">
-                                      <button type="submit" class="btn btn-default">Search</button>
-                                      <button type="reset" class="btn btn-default">Clear all</button>
+                                      <button type="submit" class="btn search">Search</button>
+                                      <button type="reset" class="btn clear">Clear all</button>
                                     </div>
                                   </div>                               
                             </div>

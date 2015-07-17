@@ -407,6 +407,33 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 #social-links .fa {
   color: #fff; }
 
+/* buttons */
+.btn.add {
+  color: #002147;
+  background-color: #fff; }
+
+.btn.add:hover {
+  color: #D69E40; }
+
+.btn.search {
+  color: #fff;
+  background-color: #D69E40;
+  border-radius: 0; }
+
+.btn.search:focus {
+  background-color: #002147; }
+
+.btn.clear {
+  color: #fff;
+  background-color: #002147;
+  border-radius: 0; }
+
+.btn.clear:focus {
+  background-color: #D69E40; }
+
+.btn-default {
+  border: none; }
+
 /* responsive adjustments */
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
