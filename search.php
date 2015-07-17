@@ -110,6 +110,9 @@
                       <div id="tabs-3"><!-- search results list view -->
                         <div class="row"> 
                             <div class="col-md-12">
+                                <div><p><span>Results: 235 Records</span>
+                                    <span class="resultssort">Sort by Date<button type="button" class="btn sort"><i class="fa fa-caret-down"></i></button></span>
+                                    <span class="resultssort">Sort by Size<button type="button" class="btn sort"><i class="fa fa-caret-down"></i></button></span></p></div>
                                 <div class="hoardlistview">
                                     <h2>Name of Hoard</h2>
                                     <div class="datalabel">Date: </div><div class="data">14/05/2006</div>

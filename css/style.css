@@ -434,6 +434,14 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 .btn-default {
   border: none; }
 
+.btn.sort {
+  background: none; }
+
+/* search results */
+.resultssort {
+  float: right;
+  margin: 0 10px; }
+
 /* responsive adjustments */
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
