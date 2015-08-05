@@ -460,12 +460,12 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 
 /* buttons */
 
-.btn.add {color: #002147; background-color:#fff;}
-.btn.add:hover {color: #D69E40;}
-.btn.search {color: #fff; background-color:#D69E40;border-radius:0;}
-.btn.search:focus {background-color:#002147;}
-.btn.clear {color: #fff; background-color:#002147;border-radius:0;}
-.btn.clear:focus {background-color:#D69E40;}
+.btn.add {color: $secondaryColour; background-color:#fff;}
+.btn.add:hover {color: $primaryColour;}
+.btn.search {color: #fff; background-color:$primaryColour;border-radius:0;}
+.btn.search:focus {background-color:$secondaryColour;}
+.btn.clear {color: #fff; background-color:$secondaryColour;border-radius:0;}
+.btn.clear:focus {background-color:$primaryColour;}
 .btn-default {border: none;}
 .btn.sort {background: none;}
 
