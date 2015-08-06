@@ -30,6 +30,7 @@
                         <img src="img/imgplaceholder.jpg" alt=""/>
                         <p class="teasertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet lacus quis enim ultricies congue ac ac massa. Duis tincidunt finibus turpis, varius sagittis mi fringilla quis. <a href=""><span> more..</span></a></p>
                     </div>
+                    <div class="clearfix"></div>
                     <div class="col-xs-12 col-md-6">
                         <img src="img/imgplaceholder.jpg" alt=""/>
                         <p class="teasertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet lacus quis enim ultricies congue ac ac massa. Duis tincidunt finibus turpis, varius sagittis mi fringilla quis. <a href=""><span> more..</span></a></p>
