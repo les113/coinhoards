@@ -452,6 +452,3 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */
 /* v small */
-@media only screen and (min-width: 970px) {
-  #header .sitenamebg {
-    background-color: transparent; } }
