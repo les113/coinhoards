@@ -4,10 +4,11 @@
            
     <div class="container">
 
-        <div class="row">
-            <div id="header">
+        <div id="header">
+            <div class="row">
+                <div class="col-md-12">
 				<div class="sitenamebg">
-					<h1 class="sitename">Coin Hoards<br/><span class="sitename_sml">of the Roman Empire</span></h1>
+					<div class="sitename">Coin Hoards<br/><span class="sitename_sml">of the Roman Empire</span></div>
 				</div>
 				<div id="searchbox">
 					<form>
@@ -16,6 +17,7 @@
 					<button type="submit" form="form1" value="Submit"><span class="fa fa-chevron-right" style="float:left;"></span></button>
 					<p><a href="#">Advanced Search</a></p>
 				</div>
+                </div>
 			</div>
         </div>
 

@@ -75,7 +75,7 @@ p {
   Float: right;
   position: absolute;
   top: 140px;
-  right: 0;
+  right: 15px;
   padding: 15px; }
 
 .sitename {
@@ -83,7 +83,9 @@ p {
   color: #D69E40;
   font-size: 60px;
   text-align: right;
-  line-height: 40px; }
+  line-height: 40px;
+  position: relative;
+  top: 15px; }
 
 .sitename_sml {
   font-size: 24px; }
@@ -98,7 +100,6 @@ p {
 
 #headersubpage .sitenamebg {
   position: absolute;
-  right: 0px;
   top: 0px; }
 
 #searchbox {
@@ -106,8 +107,8 @@ p {
   height: 70px;
   width: 250px;
   position: absolute;
-  right: 20px;
-  bottom: 20px;
+  right: 30px;
+  top: 305px;
   padding-top: 16px;
   padding-left: 16px; }
 
@@ -450,5 +451,12 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
     text-align: left;
     margin-top: 40px; } }
 /* Small Devices, Tablets */
+@media only screen and (min-width: 750px) {
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0; } }
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .sitename {
+    font-size: 40px; } }
 /* v small */

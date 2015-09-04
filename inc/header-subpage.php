@@ -4,11 +4,13 @@
            
     <div class="container">
 
-        <div class="row">
-            <div id="headersubpage">
-				<div class="sitenamebg">
-				<h1 class="sitename">Coin Hoards<br/><span class="sitename_sml">of the Roman Empire</span></h1>
-				</div>
+        <div id="headersubpage">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="sitenamebg">
+                    <div class="sitename">Coin Hoards<br/><span class="sitename_sml">of the Roman Empire</span></div>
+                    </div>
+                </div>
             </div>
         </div>
 
